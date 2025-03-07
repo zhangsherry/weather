@@ -1,6 +1,6 @@
 // Your API key from WeatherAPI.com
 const API_KEY = 'd411fcd56ee54e5caec160828250703';
-const BASE_URL = 'http://api.weatherapi.com/v1';
+const BASE_URL = 'https://api.weatherapi.com/v1';
 
 // Function to fetch weather data
 async function fetchWeatherData() {
