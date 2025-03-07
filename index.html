@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Forecast</h1>
+            <p id="location">Loading your location...</p>
+        </header>
+
+        <main>
+            <section class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="current-weather-container" class="weather-container">
+                    <div class="loading">Loading current weather...</div>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <h2>3-Day Forecast</h2>
+                <div id="forecast-container" class="forecast-cards">
+                    <div class="loading">Loading forecast...</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Powered by <a href="https://www.weatherapi.com" target="_blank">WeatherAPI.com</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
